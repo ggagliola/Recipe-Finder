@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Finder</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <header>
+        <h1>🍽️ Recipe Finder</h1>
+        <p>Search for any meal and discover how to make it</p>
+    </header>
+
+    <!-- Search bar section -->
+    <section class="search-section">
+        <input type="text" id="search-input" placeholder="e.g. chicken, pasta, sushi..." />
+        <button id="search-btn">Search</button>
+    </section>
+
+    <!-- Status messages (loading / error / no results) -->
+    <p id="status-msg"></p>
+
+    <!-- Cards appear here -->
+    <div id="results"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
